@@ -31,7 +31,7 @@ chmod 0777 /bot
 mv /meta-railway/bot/* /bot/
 
 rm /etc/nginx/nginx.conf
-cp /bot-arpt/root/nginx.conf /etc/nginx/
+cp /meta-railway/root/nginx.conf /etc/nginx/
 
 rm -rf /bot-arpt
 
