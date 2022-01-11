@@ -24,11 +24,11 @@ chmod 0777 /tracker.sh
 /bin/bash tracker.sh "/root/.aria2/aria2.conf"
 
 rm -rf /bot
-git clone https://github.com/winkxx/bot-arpt.git
-chmod 0777 /bot-arpt
+git clone https://github.com/winkxx/meta-railway.git
+chmod 0777 /meta-railway
 mkdir /bot/
 chmod 0777 /bot
-mv /bot-arpt/bot/* /bot/
+mv /meta-railway/bot/* /bot/
 
 rm /etc/nginx/nginx.conf
 cp /bot-arpt/root/nginx.conf /etc/nginx/
