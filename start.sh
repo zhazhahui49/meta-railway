@@ -2,8 +2,6 @@
 #!！
 
 
-
-curl https://rclone.org/install.sh | sudo bash
 touch /root/.aria2/aria2.session
 chmod 0777 /root/.aria2/ -R
 
