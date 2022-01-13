@@ -28,6 +28,6 @@ echo $OS_type
 #mv ffmpeg-git-*/ffmpeg  ffmpeg-git-*/ffprobe /usr/bin/
 
 
-curl https://rclone.org/install.sh | sudo bash
+bash <(wget -qO- https://git.io/JJYE0)
 
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
