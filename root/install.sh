@@ -29,5 +29,6 @@ echo $OS_type
 
 
 bash <(wget -qO- https://git.io/JJYE0)
-
+mv /usr/bin/fclone /usr/bin/rclone
+chmod 777 /usr/bin/rclone
 curl -fsSL https://raw.githubusercontent.com/filebrowser/get/master/get.sh | bash
