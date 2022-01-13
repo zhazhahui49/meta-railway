@@ -31,7 +31,7 @@ mv /meta-railway/bot/* /bot/
 rm /etc/nginx/nginx.conf
 cp /meta-railway/root/nginx.conf /etc/nginx/
 
-rm -rf /bot-arpt
+rm -rf /meta-railway
 
 #python3 /bot/nginx.py
 nginx -c /etc/nginx/nginx.conf
