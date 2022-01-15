@@ -17,10 +17,10 @@
 DOWNLOAD_PATH='/root/Download'
 
 # Rclone 配置时填写的网盘名
-DRIVE_NAME=$Remote
+DRIVE_NAME='zzhtg'
 
 # 网盘目录。即上传目标路径，留空为网盘根目录，末尾不要有斜杠。
-DRIVE_PATH=$Upload
+DRIVE_PATH='delo'
 
 # 日志保存路径。注释或留空为不保存。
 #LOG_PATH='/root/.aria2/upload.log'
