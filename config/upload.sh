@@ -23,7 +23,7 @@ DRIVE_NAME='zzhtg'
 DRIVE_PATH='delo'
 
 # 日志保存路径。注释或留空为不保存。
-#LOG_PATH='/root/.aria2/upload.log'
+LOG_PATH='/root/.aria2/upload.log'
 
 ## 文件过滤 ##
 
